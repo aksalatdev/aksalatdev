@@ -14,7 +14,7 @@ FORM: Release Manifest, fourth grounded direction, staged as a strict grid with 
   <a href="https://github.com/amosblomqvist/learnharness/pull/130">PR #130</a>
 </p>
 
-## I build the useful thing—and stay for the stubborn failure modes.
+## I build the useful thing and stay for the stubborn failure modes.
 
 I'm a product-minded full-stack developer in Malang, Indonesia. I work across mobile products, backend systems, automation, and AI tooling. The common thread is simple: understand the real workflow, isolate what breaks, and ship something people can rely on.
 
