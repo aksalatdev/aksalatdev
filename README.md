@@ -1,12 +1,12 @@
 <!--
-THESIS: A concise technical profile built around real projects and verifiable activity.
-OWN-WORLD: Paper, ink, cobalt, and orange form a flat information system with no decorative effects.
-STORY: A visitor sees the work, checks one project, and follows the links that matter.
-FIRST VIEWPORT: The name leads. A compact activity panel adds context without becoming the identity.
-FORM: Technical editorial profile with ENERGY 2, RHYTHM 2, and MOTION 2.
+THESIS: A concise technical profile led by an original monochrome ASCII portrait.
+OWN-WORLD: Near-black, off-white glyphs, and restrained technical typography.
+STORY: A visitor sees the visual identity, checks one project, and follows the links that matter.
+FIRST VIEWPORT: The portrait creates the mood while GitHub's native profile chrome carries the identity.
+FORM: Dark terminal portrait with ENERGY 2, RHYTHM 2, and MOTION 1.
 -->
 
-<img src="./assets/profile-hero.svg" width="100%" alt="Aksal Abitahta, full-stack developer in Indonesia">
+<img src="./assets/profile-hero.png" width="100%" alt="Monochrome ASCII portrait on a black background">
 
 <p align="center">
   <a href="https://tahtalabs.com/">Tahta Labs</a>&nbsp;&nbsp;|&nbsp;&nbsp;
@@ -17,8 +17,6 @@ FORM: Technical editorial profile with ENERGY 2, RHYTHM 2, and MOTION 2.
 ## I build mobile apps, backend services, and automation tools.
 
 Recent projects include a GPS attendance app, a real-time chat system, and a Python document pipeline. I also work on MCP tools and AI agent workflows.
-
-<sub>GitHub activity: 660 contributions and 14 pull requests from 28 October 2025 to 28 October 2026. Source: GitHub GraphQL API.</sub>
 
 ## Open source
 
