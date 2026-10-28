@@ -1,6 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
-  <title id="title">Aksal Abitahta — Full-stack developer</title>
-  <desc id="desc">A software release manifest introducing Aksal Abitahta and highlighting an upstream open-source contribution.</desc>
+  <title id="title">Aksal Abitahta, full-stack developer</title>
+  <desc id="desc">A technical profile for Aksal Abitahta, a full-stack developer in Indonesia.</desc>
+
+  <style>
+    .identity {
+      animation: rise 560ms cubic-bezier(0.23, 1, 0.32, 1) both;
+    }
+    .metrics {
+      animation: enter-right 520ms cubic-bezier(0.23, 1, 0.32, 1) 90ms both;
+    }
+    .footer-strip {
+      animation: fade 360ms ease 180ms both;
+    }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes enter-right {
+      from { opacity: 0; transform: translateX(18px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes fade {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .identity, .metrics, .footer-strip { animation: none; }
+    }
+  </style>
 
   <rect width="1200" height="520" fill="#F2EFE7"/>
 
@@ -17,47 +44,45 @@
 
   <!-- Registration data -->
   <g fill="#161616" font-family="Arial, Helvetica, sans-serif">
-    <text x="158" y="34" font-size="13" font-weight="700" letter-spacing="2.4">RELEASE MANIFEST  /  001</text>
-    <text x="750" y="34" font-size="13" font-weight="700" letter-spacing="2.4">MALANG  /  INDONESIA</text>
-    <text x="1033" y="34" font-size="13" font-weight="700" letter-spacing="2.4">STATUS  /  LIVE</text>
+    <text x="158" y="34" font-size="13" font-weight="700" letter-spacing="2.4">FULL-STACK DEVELOPER  /  001</text>
+    <text x="822" y="34" font-size="13" font-weight="700" letter-spacing="2.4">INDONESIA</text>
+    <text x="1033" y="34" font-size="13" font-weight="700" letter-spacing="2.4">PROFILE  /  GITHUB</text>
   </g>
 
   <!-- Identity -->
-  <g fill="#161616" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" letter-spacing="-5">
-    <text x="148" y="238" font-size="142">AKSAL</text>
-    <text x="148" y="365" font-size="142">ABITAHTA</text>
+  <g class="identity" fill="#161616" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" letter-spacing="-4.5">
+    <text x="148" y="232" font-size="124">AKSAL</text>
+    <text x="148" y="350" font-size="124">ABITAHTA</text>
   </g>
 
-  <rect x="870" y="112" width="330" height="162" fill="#161616"/>
-  <circle cx="1043" cy="194" r="61" fill="#FF5A1F"/>
-  <path d="M982 194H1104M1043 133V255" stroke="#161616" stroke-width="2"/>
-  <g fill="#F2EFE7" font-family="Arial, Helvetica, sans-serif">
-    <text x="892" y="139" font-size="12" font-weight="700" letter-spacing="2.2">PRODUCT-MINDED</text>
-    <text x="892" y="158" font-size="12" font-weight="700" letter-spacing="2.2">FULL-STACK DEVELOPER</text>
-  </g>
-
-  <!-- Proof stamp: the deliberate grid break -->
-  <g transform="rotate(-3 888 355)">
-    <rect x="674" y="303" width="458" height="104" fill="#FF5A1F"/>
-    <text x="700" y="346" fill="#161616" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="35" font-weight="900" letter-spacing="0.5">SHIPPED UPSTREAM</text>
-    <text x="702" y="379" fill="#161616" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="2.2">LEARNHARNESS  /  V0.3.9  /  CO-AUTHORED</text>
+  <!-- Verified GitHub activity, 28 Oct 2025 to 28 Oct 2026 -->
+  <g class="metrics">
+    <rect x="850" y="112" width="350" height="278" fill="#161616"/>
+    <text x="880" y="201" fill="#FF5A1F" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="74" font-weight="900">660</text>
+    <text x="882" y="232" fill="#F2EFE7" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2">CONTRIBUTIONS / 12 MONTHS</text>
+    <path d="M880 264H1170" stroke="#F2EFE7" stroke-width="1" opacity="0.35"/>
+    <text x="880" y="338" fill="#F2EFE7" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="64" font-weight="900">14</text>
+    <text x="975" y="337" fill="#F2EFE7" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2">PULL REQUESTS</text>
+    <text x="882" y="370" fill="#F2EFE7" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" opacity="0.7">GITHUB / OCT 2025 TO OCT 2026</text>
   </g>
 
   <!-- Footer strip -->
-  <rect y="440" width="1200" height="80" fill="#161616"/>
-  <g fill="#F2EFE7" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="2.5">
-    <text x="38" y="487">BUILD</text>
-    <text x="222" y="487">MOBILE</text>
-    <text x="432" y="487">BACKEND</text>
-    <text x="655" y="487">AUTOMATION</text>
-    <text x="930" y="487">AI TOOLING</text>
-  </g>
-  <g fill="#FF5A1F">
-    <circle cx="176" cy="482" r="5"/>
-    <circle cx="386" cy="482" r="5"/>
-    <circle cx="609" cy="482" r="5"/>
-    <circle cx="884" cy="482" r="5"/>
-    <rect x="1128" y="474" width="34" height="16"/>
+  <g class="footer-strip">
+    <rect y="440" width="1200" height="80" fill="#161616"/>
+    <g fill="#F2EFE7" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="2.5">
+      <text x="38" y="487">BUILD</text>
+      <text x="222" y="487">MOBILE</text>
+      <text x="432" y="487">BACKEND</text>
+      <text x="655" y="487">AUTOMATION</text>
+      <text x="930" y="487">AI TOOLING</text>
+    </g>
+    <g fill="#FF5A1F">
+      <circle cx="176" cy="482" r="5"/>
+      <circle cx="386" cy="482" r="5"/>
+      <circle cx="609" cy="482" r="5"/>
+      <circle cx="884" cy="482" r="5"/>
+      <rect x="1128" y="474" width="34" height="16"/>
+    </g>
   </g>
 
   <!-- Crop and registration marks -->

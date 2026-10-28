@@ -1,71 +1,55 @@
 <!--
-THESIS: This is a software shipment, not a résumé; it refuses the neon terminal and badge-wall developer profile.
-OWN-WORLD: Paper-white, ink-black, cobalt, and safety-orange form a flat release-manifest system of rules, registration marks, and one proof stamp.
-STORY: A visitor meets Aksal, sees upstream proof, inspects selected systems, understands his working set, and chooses a real artifact to open.
-FIRST VIEWPORT: A full-width shipping-label SVG makes the name monumental while a safety-orange SHIPPED UPSTREAM stamp breaks the manifest grid; primary links sit immediately below.
-FORM: Release Manifest, fourth grounded direction, staged as a strict grid with one focal violation; seed d84e2079.
+THESIS: A concise technical profile built around real projects and verifiable activity.
+OWN-WORLD: Paper, ink, cobalt, and orange form a flat information system with no decorative effects.
+STORY: A visitor sees the work, checks one project, and follows the links that matter.
+FIRST VIEWPORT: The name leads. A compact activity panel adds context without becoming the identity.
+FORM: Technical editorial profile with ENERGY 2, RHYTHM 2, and MOTION 2.
 -->
 
-<img src="./assets/profile-hero.svg" width="100%" alt="Aksal Abitahta — full-stack developer; shipped upstream to LearnHarness v0.3.9">
+<img src="./assets/profile-hero.svg" width="100%" alt="Aksal Abitahta, full-stack developer in Indonesia">
 
 <p align="center">
-  <a href="https://tahtalabs.com/"><strong>TAHTA LABS</strong></a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/aksalatdev?tab=repositories">ALL BUILDS</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/amosblomqvist/learnharness/pull/130">PR #130</a>
+  <a href="https://tahtalabs.com/">Tahta Labs</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://github.com/aksalatdev?tab=repositories">Repositories</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://github.com/amosblomqvist/learnharness/pull/130">Open source</a>
 </p>
 
-## I build the useful thing and stay for the stubborn failure modes.
+## I build mobile apps, backend services, and automation tools.
 
-I'm a product-minded full-stack developer in Malang, Indonesia. I work across mobile products, backend systems, automation, and AI tooling. The common thread is simple: understand the real workflow, isolate what breaks, and ship something people can rely on.
+Recent projects include a GPS attendance app, a real-time chat system, and a Python document pipeline. I also work on MCP tools and AI agent workflows.
 
-Right now I'm exploring **AI-assisted development**, **agent workflows**, and the tooling that makes both more reliable.
+<sub>GitHub activity: 660 contributions and 14 pull requests from 28 October 2025 to 28 October 2026. Source: GitHub GraphQL API.</sub>
 
-## Shipped upstream
+## Open source
 
-LearnHarness [v0.3.9](https://github.com/amosblomqvist/learnharness/releases/tag/v0.3.9) adapted the probe-completion foundation from my [PR #130](https://github.com/amosblomqvist/learnharness/pull/130) and credited me as co-author in the [upstream commit](https://github.com/amosblomqvist/learnharness/commit/f01fdf3260a31091b96f81e6f5f31b14b34b2d3a).
+In [PR #130](https://github.com/amosblomqvist/learnharness/pull/130), I changed the completion rule so a failed `probe_done` call could not close a probe. The maintainer adapted that part into [v0.3.9](https://github.com/amosblomqvist/learnharness/releases/tag/v0.3.9) and credited my account in the [upstream commit](https://github.com/amosblomqvist/learnharness/commit/f01fdf3260a31091b96f81e6f5f31b14b34b2d3a).
 
-The fix ensures that a failed, aborted, or refused `probe_done` call cannot incorrectly complete a learning probe. It came from tracing a real broken session, reducing the failure mode, and proposing regression-tested recovery rules.
+## Selected work
 
-`REPRODUCE` → `ISOLATE` → `FIX` → `VERIFY` → `SHIP`
+### [Excel to Word to PDF Automation](https://github.com/aksalatdev/Excel2Word2PDF-Automation)
 
-## Selected systems
-
-### [Excel → Word → PDF Automation](https://github.com/aksalatdev/Excel2Word2PDF-Automation)
-
-A document pipeline that turns spreadsheet rows into populated Word templates and final PDFs—useful for reports, invoices, certificates, and repeatable office workflows.
+Reads rows from Excel, fills Word templates, and exports PDFs. It handles repetitive document jobs such as invoices, reports, and certificates.
 
 `Python` `Excel` `Word automation`
 
 ### [Flutter Presence App](https://github.com/aksalatdev/flutter-pressence-app)
 
-A GPS-enabled attendance product with separate employee and administrator experiences, designed around real operational workflows.
+GPS attendance app with separate views for employees and admins. Built with Flutter, Firebase, and GetX.
 
 `Flutter` `Dart` `Firebase` `GetX`
 
 ### [Real-time Chat App](https://github.com/aksalatdev/simple-chat-app)
 
-A full-stack messaging system with a Vue frontend, Laravel backend, and real-time message delivery through Pusher.
+Vue client and Laravel backend, with Pusher delivering messages in real time.
 
 `Laravel` `Vue.js` `Pusher` `PHP`
 
-## Working set
+## Tools
 
-| Area | Tools I reach for | What I use them to solve |
-| --- | --- | --- |
-| Product interfaces | Flutter, Dart, Vue.js | Mobile and web experiences built around real user flows |
-| Systems & APIs | TypeScript, JavaScript, Node.js, Laravel | Application logic, integrations, and reliable backend behavior |
-| Automation | Python | Repetitive document, data, and developer workflows |
-| Current frontier | AI agents, MCP, developer tooling | Better context, safer execution, and less friction between idea and shipped code |
+I use Flutter and Dart for mobile apps, TypeScript and Node.js for backend work, Laravel for APIs, Python for automation, and Vue for web interfaces.
 
-## Operating principles
+Lately, I have been working on MCP tools, AI agent workflows, and the infrastructure around them.
 
-- **Reproduce before guessing.** A reliable fix begins with a reliable failure.
-- **Keep the solution legible.** Future maintainers are part of the user base.
-- **Verify the real path.** Passing the happy-path demo is not the finish line.
-- **Leave evidence.** Tests, commits, and clear reasoning beat vague claims.
+## Elsewhere
 
----
-
-### Building something useful—or untangling something stubborn?
-
-[**Start with Tahta Labs →**](https://tahtalabs.com/)
+More projects and notes live at [tahtalabs.com](https://tahtalabs.com/).
