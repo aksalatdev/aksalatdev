@@ -1,44 +1,71 @@
-<h1 align="center">Aksal Abitahta</h1>
+<!--
+THESIS: This is a software shipment, not a résumé; it refuses the neon terminal and badge-wall developer profile.
+OWN-WORLD: Paper-white, ink-black, cobalt, and safety-orange form a flat release-manifest system of rules, registration marks, and one proof stamp.
+STORY: A visitor meets Aksal, sees upstream proof, inspects selected systems, understands his working set, and chooses a real artifact to open.
+FIRST VIEWPORT: A full-width shipping-label SVG makes the name monumental while a safety-orange SHIPPED UPSTREAM stamp breaks the manifest grid; primary links sit immediately below.
+FORM: Release Manifest, fourth grounded direction, staged as a strict grid with one focal violation; seed d84e2079.
+-->
+
+<img src="./assets/profile-hero.svg" width="100%" alt="Aksal Abitahta — full-stack developer; shipped upstream to LearnHarness v0.3.9">
 
 <p align="center">
-  <strong>Full-stack developer building practical software across mobile, automation, and AI tooling.</strong>
+  <a href="https://tahtalabs.com/"><strong>TAHTA LABS</strong></a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/aksalatdev?tab=repositories">ALL BUILDS</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/amosblomqvist/learnharness/pull/130">PR #130</a>
 </p>
 
-<p align="center">
-  <a href="https://tahtalabs.com/">Website</a> ·
-  <a href="https://github.com/aksalatdev?tab=repositories">Projects</a> ·
-  <a href="https://github.com/amosblomqvist/learnharness/commit/f01fdf3260a31091b96f81e6f5f31b14b34b2d3a">Open-source contribution</a>
-</p>
+## I build the useful thing—and stay for the stubborn failure modes.
 
----
+I'm a product-minded full-stack developer in Malang, Indonesia. I work across mobile products, backend systems, automation, and AI tooling. The common thread is simple: understand the real workflow, isolate what breaks, and ship something people can rely on.
 
-I turn real-world problems and repetitive workflows into software people can actually use. My work spans Flutter applications, real-time web systems, Python automation, and developer tools. I care about reliable behavior, clear interfaces, and shipping improvements that hold up outside a demo.
+Right now I'm exploring **AI-assisted development**, **agent workflows**, and the tooling that makes both more reliable.
 
-Currently exploring **AI-assisted development**, **agent workflows**, and better tooling for developers. Based in Malang, Indonesia.
+## Shipped upstream
 
-## Open source
+LearnHarness [v0.3.9](https://github.com/amosblomqvist/learnharness/releases/tag/v0.3.9) adapted the probe-completion foundation from my [PR #130](https://github.com/amosblomqvist/learnharness/pull/130) and credited me as co-author in the [upstream commit](https://github.com/amosblomqvist/learnharness/commit/f01fdf3260a31091b96f81e6f5f31b14b34b2d3a).
 
-I contributed the probe-completion reliability foundation adopted by [LearnHarness](https://github.com/amosblomqvist/learnharness) in [v0.3.9](https://github.com/amosblomqvist/learnharness/releases/tag/v0.3.9). The change prevents failed, aborted, or refused `probe_done` calls from incorrectly completing a learning probe.
+The fix ensures that a failed, aborted, or refused `probe_done` call cannot incorrectly complete a learning probe. It came from tracing a real broken session, reducing the failure mode, and proposing regression-tested recovery rules.
 
-- [Pull request #130](https://github.com/amosblomqvist/learnharness/pull/130) — diagnosed the failure mode and proposed tested recovery rules
-- [Upstream commit](https://github.com/amosblomqvist/learnharness/commit/f01fdf3260a31091b96f81e6f5f31b14b34b2d3a) — adapted into the official release with co-author credit
+`REPRODUCE` → `ISOLATE` → `FIX` → `VERIFY` → `SHIP`
 
-## Selected work
+## Selected systems
 
-| Project | What it does | Built with |
+### [Excel → Word → PDF Automation](https://github.com/aksalatdev/Excel2Word2PDF-Automation)
+
+A document pipeline that turns spreadsheet rows into populated Word templates and final PDFs—useful for reports, invoices, certificates, and repeatable office workflows.
+
+`Python` `Excel` `Word automation`
+
+### [Flutter Presence App](https://github.com/aksalatdev/flutter-pressence-app)
+
+A GPS-enabled attendance product with separate employee and administrator experiences, designed around real operational workflows.
+
+`Flutter` `Dart` `Firebase` `GetX`
+
+### [Real-time Chat App](https://github.com/aksalatdev/simple-chat-app)
+
+A full-stack messaging system with a Vue frontend, Laravel backend, and real-time message delivery through Pusher.
+
+`Laravel` `Vue.js` `Pusher` `PHP`
+
+## Working set
+
+| Area | Tools I reach for | What I use them to solve |
 | --- | --- | --- |
-| [Excel → Word → PDF Automation](https://github.com/aksalatdev/Excel2Word2PDF-Automation) | Turns spreadsheet data into generated documents and PDFs for reports, invoices, or certificates. | Python, Excel, Word automation |
-| [Flutter Presence App](https://github.com/aksalatdev/flutter-pressence-app) | GPS-enabled attendance experience for employee and administrator workflows. | Flutter, Dart, Firebase, GetX |
-| [Real-time Chat App](https://github.com/aksalatdev/simple-chat-app) | Full-stack messaging with real-time delivery and a separate frontend/backend architecture. | Laravel, Vue.js, Pusher |
+| Product interfaces | Flutter, Dart, Vue.js | Mobile and web experiences built around real user flows |
+| Systems & APIs | TypeScript, JavaScript, Node.js, Laravel | Application logic, integrations, and reliable backend behavior |
+| Automation | Python | Repetitive document, data, and developer workflows |
+| Current frontier | AI agents, MCP, developer tooling | Better context, safer execution, and less friction between idea and shipped code |
 
-## Toolbox
+## Operating principles
 
-**Languages:** TypeScript, JavaScript, Python, Dart, PHP, Kotlin  
-**Product development:** Flutter, Laravel, Vue.js, Node.js, Firebase  
-**Current interests:** AI agents, developer experience, automation, reliability
+- **Reproduce before guessing.** A reliable fix begins with a reliable failure.
+- **Keep the solution legible.** Future maintainers are part of the user base.
+- **Verify the real path.** Passing the happy-path demo is not the finish line.
+- **Leave evidence.** Tests, commits, and clear reasoning beat vague claims.
 
 ---
 
-<p align="center">
-  <em>Interested in useful products, stubborn bugs, and open-source collaboration.</em>
-</p>
+### Building something useful—or untangling something stubborn?
+
+[**Start with Tahta Labs →**](https://tahtalabs.com/)
